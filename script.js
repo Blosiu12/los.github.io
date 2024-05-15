@@ -1,6 +1,6 @@
 
 
-      document.querySelector('#secret').addEventListener('click', () => {
+
             fetch('https://cors.szurek.local/10/') 
                 .then(response => response.json())
                 .then(data => {
@@ -9,4 +9,3 @@
                 .catch(error => {
                     console.error('Error:', error);
                 });
-        });
